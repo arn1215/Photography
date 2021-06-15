@@ -1,0 +1,96 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18;
+}
+body {
+    margin: 0;
+    
+  
+}
+.Logo {
+    font-size: 7em;
+    letter-spacing: .2em;
+    margin-left: 200px;
+}
+
+.Occupation {
+    font-size: 2.8em;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    margin-left: 200px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 150px;
+    width: 100%;
+}
+ 
+.nav-list {
+    list-style-type: none;
+    margin-right: 300px;
+    
+    
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    margin: 80px;
+    font-size: 4em;
+   
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+
+.navbar a.about:hover {
+    color: rgb(255, 255, 0);
+}
+
+.navbar a.projects:hover {
+    color: rgb(255, 73, 73);
+}
+
+.navbar a.contact:hover {
+    color: rgb(0, 102, 255);
+}
+
+ .contact {
+    height: 100%;
+}
+
+.main-content {
+    margin-top: 400px;
+   
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.image-containertwo {
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    width: 10%;
+    margin: 20px;
+    
+}
